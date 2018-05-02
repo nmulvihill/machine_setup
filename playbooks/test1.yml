@@ -1,0 +1,7 @@
+---
+- hosts: all
+
+
+  tasks:
+    - name: echo a message
+      debug: msg="this is working"
